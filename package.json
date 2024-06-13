@@ -27,10 +27,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run build:css && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build:css": "postcss src/Components/css/styles.css -o src/Components/css/styles.output.css"
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
