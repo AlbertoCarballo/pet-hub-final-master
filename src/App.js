@@ -16,7 +16,7 @@ import axios from 'axios';
 
 function App() {
   const isAuthenticated = localStorage.getItem('sesion');
-  const url = 'http://localhost:4000/loggear';
+  const url = 'https://lucky-enchantment-production.up.railway.app/loggear';
   function RequireAuth({ children }) {
 
     let isLoggedIn = localStorage.getItem('sesion') ? true : false;
